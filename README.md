@@ -1,3 +1,13 @@
+# Dotnet
+
+```sh
+dotnet run
+dotnet watch run
+dotnet restore
+dotnet clean
+dotnet build
+```
+
 # Modelos
 
 ## ![](./vs.svg) Solução em branco
