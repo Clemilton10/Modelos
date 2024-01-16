@@ -21,24 +21,34 @@ Aplicativo do console(Shell/Tela Preta).
 
 ## ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/vs.svg) Aplicativo Web ASP.NET Core
 
-    Home | Privacy
+```console
+Home | Privacy
+```
 
 ## ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/vs.svg) ASP.NET Core Vazio
 
-    Hello World!
+```console
+Hello World!
+```
 
 ```sh
 dotnet new web -f net6.0 -n webName
 dotnet sln add webName
 ```
 
-    Hello World!
+```console
+Hello World!
+```
 
 Aplicação Web com apenas a rota padrão `GET` `/` com a mensagem `Hello World!`.
 
 ## ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/vs.svg) API Web do ASP.NET Core
 
 ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/swagger.svg)
+
+```console
+Controllers
+```
 
 ```sh
 dotnet new webapi -f net6.0 -n webapiName
@@ -48,6 +58,10 @@ dotnet sln add webapiName
 Aplicação Web com Controladores `(Controllers)`, com `Swagger` instalado, com a rota padrão `GetWeatherForecast`.
 
 ## ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/vs.svg) Aplicativo Web do ASP.NET Core (Model-View-Controller)
+
+```console
+Controllers
+```
 
 ```sh
 dotnet new mvc -f net6.0 -n mvcName
