@@ -1,41 +1,6 @@
-# Dotnet
-
-```sh
-# Listar pacotes
-dotnet list package
-
-# instalar pacotes pelo XML
-dotnet restore
-
-# Adicionar pacotes
-dotnet add package nome
-
-# Remover pacotes
-dotnet remove package nome
-
-# Limpar
-dotnet clean
-
-# Executar
-dotnet run
-dotnet run --urls "https://localhost:5000"
-dotnet watch run
-
-# Criar o executável
-dotnet build
-
-dotnet --version
-dotnet --list-sdks
-dotnet --list-runtimes
-
-dotnet run
-dotnet watch run
-dotnet restore
-dotnet clean
-dotnet build
-```
-
 # Modelos
+
+[DotNet](./dotnet.md)
 
 ## ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/vs.svg) Solução em branco
 
@@ -54,12 +19,20 @@ dotnet sln add consoleName
 
 Aplicativo do console(Shell/Tela Preta).
 
+## ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/vs.svg) Aplicativo Web ASP.NET Core
+
+    Home | Privacy
+
 ## ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/vs.svg) ASP.NET Core Vazio
+
+    Hello World!
 
 ```sh
 dotnet new web -f net6.0 -n webName
 dotnet sln add webName
 ```
+
+    Hello World!
 
 Aplicação Web com apenas a rota padrão `GET` `/` com a mensagem `Hello World!`.
 
@@ -172,3 +145,5 @@ dotnet new install Duende.IdentityServer.Templates
 ```sh
 dotnet new isaspid --force
 ```
+
+[DotNet](./dotnet.md)
