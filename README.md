@@ -65,6 +65,8 @@ Aplicação Web com apenas a rota padrão `GET` `/` com a mensagem `Hello World!
 
 ## ![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/vs.svg) API Web do ASP.NET Core
 
+![](https://raw.githubusercontent.com/Clemilton10/icons/409d6f8e4996b306276f8c31332e2574ce7b019e/swagger.svg)
+
 ```sh
 dotnet new webapi -f net6.0 -n webapiName
 dotnet sln add webapiName
